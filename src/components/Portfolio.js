@@ -22,7 +22,7 @@ export const Portfolio = () => (
       </Card.Footer>
     </Card>
     <Card>
-      <Card.Img variant="top" src="holder.js/100px160" />
+      <Card.Img variant="top" src="../assets/zlat.png" />
       <Card.Body>
         <Card.Title>Card title</Card.Title>
         <Card.Text>

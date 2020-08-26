@@ -29,8 +29,6 @@ function App() {
         </Router>
       </Layout>
       {/* Main Navigation */}
-
-      {/* <GridMessingAbout /> */}
       {/* Main Layout */}
       <Introduction />
       <Portfolio />

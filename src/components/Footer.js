@@ -19,7 +19,7 @@ const Styles = styled.div`
 
   #footer {
     text-align: center;
-    background-color: #222;
+    background-color: #283044;
   }
 `;
 export const Footer = () => (
