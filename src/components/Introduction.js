@@ -6,8 +6,21 @@ import zlatImage from "./zlat.png";
 import "./fontawesome";
 
 const Styles = styled.div`
+
+@media screen and (min-width: 52em)
 .my-container{
-    border: 1px solid green;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.my-container{
+    box-sizing: border-box;
+    min-width: 0px;
+    max-height: 1000px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    display: flex;
+    margin: 0px;
 }
   }
 .my-row {
@@ -23,11 +36,6 @@ const Styles = styled.div`
 }
 
 .leftside{
-    ${"" /* background:red; */}
-}
-
-.rightside{
-    ${"" /* background:blue; */}
 }
 .rounded-circle{
     max-width:100%;
@@ -54,7 +62,8 @@ const Styles = styled.div`
     padding-inline-start: 40px;
 }
 li{
-    display: inline;
+    display: inline-block;
+    margin-right: 8px;
 }
 
 .my-container {
@@ -63,6 +72,23 @@ li{
     padding-right: 5%;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+small{
+    font-weight: 400;
+    display: block;
+    position: relative;
+    font-size: 100%;
+}
+
+h1{
+  margin-bottom: 1em;
+}
 `;
 
 export const Introduction = () => (
@@ -71,23 +97,31 @@ export const Introduction = () => (
       <Row className="my-row text-center">
         <Col className="leftside">
           <div className="outer">
-            <div className="inner">Hello! My name is</div>
             <div className="inner">
-              <h2 className="name-header">Zlatomir Kosev.</h2>
+              <small>Hello! My name is</small>
+              <h1 className="name-header">Zlatomir Kosev.</h1>
             </div>
             <div className="inner">
-              I'm a recent graduate from the University of Nottingham, having
-              achieved a First Class Honours.
+              <p>
+                I'm a recent graduate from the University of Nottingham, having
+                achieved a First Class Honours.
+              </p>
             </div>
             <div className="inner">
-              I am currently looking for a graduate job. You can find my CV
-              here.
+              <p>
+                I am currently looking for a graduate job. You can find my CV
+                here.
+              </p>
             </div>
           </div>
           <div className="social-links">
             <ul className="styles-for-links">
               <li>
-                <a href="https://github.com/zlatoto11" target="_blank">
+                <a
+                  href="https://github.com/zlatoto11"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
                 </a>
               </li>
@@ -95,12 +129,17 @@ export const Introduction = () => (
                 <a
                   href="https://www.linkedin.com/in/zlatomir-kosev-8219a7173/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
                 </a>
               </li>
               <li>
-                <a href="mailto:zlatomir_hk@hotmail.com" target="_blank">
+                <a
+                  href="mailto:zlatomir_hk@hotmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
                 </a>
               </li>
@@ -110,7 +149,7 @@ export const Introduction = () => (
         <Col className="rightside d-flex justify-content-center align-items-center">
           <img
             className="rounded-circle z-depth-2"
-            alt="Picture of me"
+            alt="me"
             src={zlatImage}
             data-holder-rendered="true"
           ></img>

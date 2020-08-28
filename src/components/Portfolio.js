@@ -1,52 +1,79 @@
 import React from "react";
 import styled from "styled-components";
-import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
 
 const Styles = styled.div`
-  card.text: black;
+  .projects-container {
+    width: 100%;
+    max-width: 80%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0px auto;
+  }
 `;
 export const Portfolio = () => (
-  <CardGroup>
-    <Card>
-      <Card.Img variant="top" src="holder.js/100px160" />
-      <Card.Body>
-        <Card.Title>Card title</Card.Title>
-        <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </Card.Text>
-      </Card.Body>
-      <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </Card.Footer>
-    </Card>
-    <Card>
-      <Card.Img variant="top" src="../assets/zlat.png" />
-      <Card.Body>
-        <Card.Title>Card title</Card.Title>
-        <Card.Text>
-          This card has supporting text below as a natural lead-in to additional
-          content.{" "}
-        </Card.Text>
-      </Card.Body>
-      <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </Card.Footer>
-    </Card>
-    <Card>
-      <Card.Img variant="top" src="holder.js/100px160" />
-      <Card.Body>
-        <Card.Title>Card title</Card.Title>
-        <Card.Text>
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This card has even longer content than the
-          first to show that equal height action.
-        </Card.Text>
-      </Card.Body>
-      <Card.Footer>
-        <small className="text-muted">Last updated 3 mins ago</small>
-      </Card.Footer>
-    </Card>
-  </CardGroup>
+  <Styles>
+    <section className="portfolio-section">
+      <div className="projects-container">
+        {/* Header */}
+        <header className="project-header">
+          <h2 className="headerSection">Projects Section</h2>
+          <p className="header-subheader">What other projects do i have?</p>
+        </header>
+        {/* End of Header */}
+        <div className="row row-cols-1 row-cols-md-2">
+          <div className="col mb-4">
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div className="card">
+              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </Styles>
 );

@@ -28,12 +28,16 @@ export const Footer = () => (
       <div id="footer" className="col full">
         <ul className="inlist">
           <li>
-            <a href="resume.pdf" target="_blank">
+            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>
           <li>
-            <a href="https://github.com/zlatoto11" target="_blank">
+            <a
+              href="https://github.com/zlatoto11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
           </li>
@@ -41,12 +45,17 @@ export const Footer = () => (
             <a
               href="https://www.linkedin.com/in/zlatomir-kosev-8219a7173/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
           </li>
           <li>
-            <a href="mailto:zlatomir_hk@hotmail.com" target="_blank">
+            <a
+              href="mailto:zlatomir_hk@hotmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Email
             </a>
           </li>
