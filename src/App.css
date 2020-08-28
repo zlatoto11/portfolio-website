@@ -37,7 +37,6 @@
   }
 }
 
-/* html body {
-  background-color: #222;
-  color: white;
-} */
+body,
+html {
+}

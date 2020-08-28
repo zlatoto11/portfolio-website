@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import zlatImage from "./zlat.png";
+import "./fontawesome";
 
 const Styles = styled.div`
 .my-container{
@@ -55,6 +57,12 @@ li{
     display: inline;
 }
 
+.my-container {
+    min-height: calc((var(--vh,1vh) * 100) - 60px);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 `;
 
 export const Introduction = () => (
@@ -72,17 +80,30 @@ export const Introduction = () => (
               achieved a First Class Honours.
             </div>
             <div className="inner">
-              I am currently looking for a graduate job. You can find my resume
+              I am currently looking for a graduate job. You can find my CV
               here.
             </div>
           </div>
           <div className="social-links">
             <ul className="styles-for-links">
               <li>
-                Github <i className="fa fa-github" aria-hidden="true"></i>
+                <a href="https://github.com/zlatoto11" target="_blank">
+                  <FontAwesomeIcon icon={["fab", "github"]} size="3x" />
+                </a>
               </li>
-              <li>LinkedIn</li>
-              <li>Twitter</li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/zlatomir-kosev-8219a7173/"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:zlatomir_hk@hotmail.com" target="_blank">
+                  <FontAwesomeIcon icon={["fas", "envelope"]} size="3x" />
+                </a>
+              </li>
             </ul>
           </div>
         </Col>
