@@ -21,16 +21,20 @@ const Styles = styled.div`
     padding-top: 30px;
     display: flex;
     margin: 0px;
+    background-color: #222;
+    min-height: calc((var(--vh,1vh) * 100) - 80px);
+    padding-left: 5%;
+    padding-right: 5%;
 }
   }
 .my-row {
-    border: 3px solid red;
+    ${"" /* border: 3px solid red; */}
 }
 .my-col{
-    border :3px dotted blue;
+    ${"" /* border :3px dotted blue; */}
 }
 .leftside, .rightside{
-    border: 3px dotted blue;
+    ${"" /* border: 3px dotted blue; */}
     height:50vh;
     width:100%;
 }
@@ -66,12 +70,6 @@ li{
     margin-right: 8px;
 }
 
-.my-container {
-    min-height: calc((var(--vh,1vh) * 100) - 60px);
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
 p {
     display: block;
     margin-block-start: 1em;
@@ -89,6 +87,11 @@ small{
 h1{
   margin-bottom: 1em;
 }
+
+p,h1,h2, small{
+  color:white;
+}
+
 `;
 
 export const Introduction = () => (

@@ -9,6 +9,9 @@ const Styles = styled.div`
     padding-bottom: 60px;
     margin: 0px auto;
   }
+  .portfolio-section {
+    background-color: #1c1b1b;
+  }
 `;
 export const Portfolio = () => (
   <Styles>
