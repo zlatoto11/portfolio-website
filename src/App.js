@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Portfolio } from "./components/Portfolio";
 import { Footer } from "./components/Footer";
 import { Introduction } from "./components/Introduction";
+import { Projects } from "./components/Projects";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/cv" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route path="/projects/:projectID" component={Projects} />
             <Route component={NoMatch} />
           </Switch>
         </Router>

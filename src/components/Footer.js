@@ -4,11 +4,7 @@ const Styles = styled.div`
   .inlist {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    margin-bottom: 0px;
   }
 
   .inlist li {
@@ -19,7 +15,9 @@ const Styles = styled.div`
 
   #footer {
     text-align: center;
-    background-color: #283044;
+    background-color: #1c1b1b;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 `;
 export const Footer = () => (
