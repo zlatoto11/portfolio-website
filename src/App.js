@@ -12,7 +12,6 @@ import { Portfolio } from "./components/Portfolio";
 import { Footer } from "./components/Footer";
 import { Introduction } from "./components/Introduction";
 import { Projects } from "./components/Projects";
-
 function App() {
   return (
     <React.Fragment>

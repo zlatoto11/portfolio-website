@@ -9,17 +9,6 @@ const Styles = styled.div`
   }
 `;
 
-const projects = [
-  {
-    name: `Param`,
-  },
-  {
-    name: `Vennila`,
-  },
-  {
-    name: `Afrin`,
-  },
-];
 export const Projects = (props) => (
   <React.Fragment>
     <Styles>

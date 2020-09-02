@@ -1,7 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { Projects } from "./Projects";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Link,
+  Switch,
+  Route,
+  useParams,
+} from "react-router-dom";
 import { Button } from "react-bootstrap";
 
 const Styles = styled.div`
@@ -27,21 +32,40 @@ const Styles = styled.div`
   }
 `;
 
-const projects = [
-  {
-    name: `Param`,
-  },
-  {
-    name: `Vennila`,
-  },
-  {
-    name: `Afrin`,
-  },
-];
+function Child() {
+  // We can use the `useParams` hook here to access
+  // the dynamic pieces of the URL.
+  console.log(useParams());
+  let { id } = useParams();
+
+  return (
+    <div>
+      <h3>ID: {id}</h3>
+    </div>
+  );
+}
 
 export const Portfolio = () => (
   <Styles>
     <Router>
+      <ul>
+        <li>
+          <Link to="/netflix">Netflix</Link>
+        </li>
+        <li>
+          <Link to="/zillow-group">Zillow Group</Link>
+        </li>
+        <li>
+          <Link to="/yahoo">Yahoo</Link>
+        </li>
+        <li>
+          <Link to="/modus-create">Modus Create</Link>
+        </li>
+      </ul>
+
+      <Switch>
+        <Route path="/:id" children={<Child />} />
+      </Switch>
       <section className="portfolio-section">
         <div className="projects-container">
           {/* Header */}
@@ -81,7 +105,10 @@ export const Portfolio = () => (
                     natural lead-in to additional content. This content is a
                     little bit longer.
                   </p>
-                  <a href="#" className="btn btn-primary">
+                  <a
+                    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
+                    className="btn btn-primary"
+                  >
                     Go somewhere
                   </a>
                 </div>
@@ -102,7 +129,10 @@ export const Portfolio = () => (
                     natural lead-in to additional content. This content is a
                     little bit longer.
                   </p>
-                  <a href="#" className="btn btn-primary">
+                  <a
+                    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
+                    className="btn btn-primary"
+                  >
                     Go somewhere
                   </a>
                 </div>
@@ -119,7 +149,10 @@ export const Portfolio = () => (
                     natural lead-in to additional content. This content is a
                     little bit longer.
                   </p>
-                  <a href="#" className="btn btn-primary">
+                  <a
+                    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
+                    className="btn btn-primary"
+                  >
                     Go somewhere
                   </a>
                 </div>
@@ -138,7 +171,10 @@ export const Portfolio = () => (
                     natural lead-in to additional content. This content is a
                     little bit longer.
                   </p>
-                  <a href="#" className="btn btn-primary">
+                  <a
+                    href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
+                    className="btn btn-primary"
+                  >
                     Go somewhere
                   </a>
                 </div>
