@@ -21,10 +21,12 @@ const Styles = styled.div`
     mah-width: 200px;
   }
   .my-container {
-    color: white;
-    background-color: gray;
+    color: black;
+    background-color: white;
     width: 100%;
     height: 100%;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
   }
 
   .main-post {
@@ -35,31 +37,39 @@ const Styles = styled.div`
   }
   .project-title {
     text-align: center;
-    margin: 0px;
+    margin: 0 5 5 5px;
+    border-radius: 1px;
   }
   .main-text {
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 1em;
+  }
+  .project-picture {
+  }
+  .img-fluid {
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
   }
 `;
 
-export const IdeationCards = (props) => (
+export const IdeationCards = () => (
   <React.Fragment>
     <Styles>
       <div className="main-post">
         <div className="container">
           <div className="row">
             <div className="col-4">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
-                class="img-fluid"
-                alt="Responsive image"
-              ></img>
+              <div className="project-picture">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
+                  className="img-fluid"
+                  alt="Responsive image"
+                ></img>
+              </div>
             </div>
-            <div className="col-6">
+            <div className="col-7">
               <div className="my-container">
-                <h1 className="project-title">Project Title</h1>
+                <h2 className="project-title">Ideation Cards Digisessions</h2>
                 <p className="main-text">
                   text overflow. text overflow. text overflow. text overflow.
                   text overflow. text overflow. text overflow.text overflow.text
