@@ -5,39 +5,24 @@ import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { NoMatch } from "./components/NoMatch";
-import { Layout } from "./components/Layout";
 import { NavigationBar } from "./components/NavigationBar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Portfolio } from "./components/Portfolio";
-import { Footer } from "./components/Footer";
-import { Introduction } from "./components/Introduction";
-import { Projects } from "./components/Projects";
+import { IdeationCards } from "./components/IdeationCards";
 function App() {
   return (
     <React.Fragment>
-      {/* Main Navigation */}
+      {/* Navigation */}
       <NavigationBar />
-      {/* <Jumbotron /> */}
-      <Layout>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/cv" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/projects/:projectID" component={Projects} />
-            <Route component={NoMatch} />
-          </Switch>
-        </Router>
-      </Layout>
-      {/* Main Navigation */}
-      {/* Main Layout */}
-      <Introduction />
-      <Portfolio />
-      {/* Main Layout */}
-
-      {/* Footer */}
-      <Footer />
-      {/* Footer */}
+      {/* End of Navigation */}
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/cv" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route exact path="/ideationcards" component={IdeationCards} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Router>
     </React.Fragment>
   );
 }

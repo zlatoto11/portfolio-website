@@ -35,6 +35,10 @@ export const NavigationBar = () => (
           <Nav.Item>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link href="/ideationcards">ideationcards</Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

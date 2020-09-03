@@ -1,14 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  BrowserRouter as Router,
-  Link,
-  Switch,
-  Route,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import { Button } from "react-bootstrap";
-
+import { IdeationCards } from "./IdeationCards";
+import { Home } from "./Home";
+import { About } from "./About";
+import { Contact } from "./Contact";
+import { NoMatch } from "./NoMatch";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -24,48 +22,21 @@ const Styles = styled.div`
   h1,
   h2,
   small {
-    color: white;
+    color: black;
   }
 
   .header-subheader {
     text-indent: 2.5%;
+    color: white;
+  }
+  .headerSection {
+    color: white;
   }
 `;
-
-function Child() {
-  // We can use the `useParams` hook here to access
-  // the dynamic pieces of the URL.
-  console.log(useParams());
-  let { id } = useParams();
-
-  return (
-    <div>
-      <h3>ID: {id}</h3>
-    </div>
-  );
-}
 
 export const Portfolio = () => (
   <Styles>
     <Router>
-      <ul>
-        <li>
-          <Link to="/netflix">Netflix</Link>
-        </li>
-        <li>
-          <Link to="/zillow-group">Zillow Group</Link>
-        </li>
-        <li>
-          <Link to="/yahoo">Yahoo</Link>
-        </li>
-        <li>
-          <Link to="/modus-create">Modus Create</Link>
-        </li>
-      </ul>
-
-      <Switch>
-        <Route path="/:id" children={<Child />} />
-      </Switch>
       <section className="portfolio-section">
         <div className="projects-container">
           {/* Header */}
@@ -86,7 +57,7 @@ export const Portfolio = () => (
                     UnityEngine, C#, OculusRift
                   </h6>
                   <p className="card-text">Creating a digital version</p>
-                  <Link to={"/projects/1"}>
+                  <Link to={"/ideationcards"}>
                     <Button>Home</Button>
                   </Link>
                 </div>
