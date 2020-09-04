@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { IdeationCards } from "./components/IdeationCards";
 import { MobileLearningApplication } from "./components/MobileLearningApplication";
 import { MobileRunningTrackerApplication } from "./components/MobileRunningTrackerApplication";
+import { TowerDefense } from "./components/TowerDefense";
 function App() {
   return (
     <React.Fragment>
@@ -32,6 +33,7 @@ function App() {
             path="/mobilerunningtrackerapplication"
             component={MobileRunningTrackerApplication}
           />
+          <Route exact path="/towerdefense" component={TowerDefense} />
           <Route component={NoMatch} />
         </Switch>
       </Router>

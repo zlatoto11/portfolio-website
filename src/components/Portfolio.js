@@ -2,7 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import { Button } from "react-bootstrap";
-
+import IdeationCardsImage from "./IdeationCardsImage.png";
+import TowerDefenseImage from "./TowerDefenseImage.png";
+import ThirdYearDissertationImage from "./ThirdYearDissertationImage.jpg";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -45,7 +47,11 @@ export const Portfolio = () => (
         <div className="row row-cols-1 row-cols-md-2">
           <div className="col mb-4">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <img
+                src={IdeationCardsImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">Ideation Cards Digi-sessions</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
@@ -60,7 +66,11 @@ export const Portfolio = () => (
           </div>
           <div className="col mb-4">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <img
+                src={ThirdYearDissertationImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">Mobile Learning Application</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
@@ -117,7 +127,11 @@ export const Portfolio = () => (
           </div>
           <div className="col mb-4">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <img
+                src={TowerDefenseImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">Variety of Unity projects</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
@@ -128,12 +142,9 @@ export const Portfolio = () => (
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <a
-                  href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg"
-                  className="btn btn-primary"
-                >
-                  Go somewhere
-                </a>
+                <Link to={"/towerdefense"}>
+                  <Button>Check out this project.</Button>
+                </Link>
               </div>
             </div>
           </div>
