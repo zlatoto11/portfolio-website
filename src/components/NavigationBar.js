@@ -37,7 +37,9 @@ export const NavigationBar = () => (
           </Nav.Item>
 
           <Nav.Item>
-            <Nav.Link href="/ideationcards">ideationcards</Nav.Link>
+            <Nav.Link href="/mobilerunningtrackerapplication">
+              running tracker
+            </Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>

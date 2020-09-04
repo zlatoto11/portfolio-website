@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Dissertation from "./Dissertation.pdf";
+import ThirdYearDissertation from "./ThirdYearDissertation.pdf";
 
 const Styles = styled.div`
   .test {
@@ -46,7 +46,7 @@ const Styles = styled.div`
   }
 `;
 
-export const IdeationCards = () => (
+export const MobileLearningApplication = () => (
   <React.Fragment>
     <Styles>
       <section>
@@ -57,7 +57,7 @@ export const IdeationCards = () => (
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
                     className="img-fluid"
-                    src="https://www.youtube.com/embed/9aVxLPe2u5I"
+                    src="https://www.youtube.com/embed/lp4yDZqYeak"
                     allowFullScreen={true}
                   ></iframe>
                 </div>
@@ -65,34 +65,33 @@ export const IdeationCards = () => (
             </div>
             <div className="col-7">
               <div className="my-container">
-                <h2 className="project-title">Ideation Cards Digisessions</h2>
+                <h2 className="project-title">Mobile Learning Application</h2>
                 <p className="main-text">
-                  For my fourth year group dissertation, we were tasked with
-                  initialising the development of a digital ideation cards
-                  application. This was achieved through the use of Unity and it
-                  allows for ideation cards to be transferred to a digital
-                  medium whilst maintaining all the same functionality as they
-                  would with physical cards. This implementation also laid a
-                  base foundation for future expansion into virtual reality.
+                  For my third year dissertation I created and tested the
+                  effects of a multiple-choice mobile learning application on
+                  human memory retention. In order to do this I organised and
+                  lead a group of 12 individuals through a multiple week
+                  learning experience in which I gathered and analysed the
+                  results of the application.
                 </p>
                 <p className="main-text">
-                  In order to achieve the above we initially developed a modular
-                  service which allows for any ideation card deck to be imported
-                  into the system through the use of a .csv file. This allows
-                  for easier testing of cards by creators by saving money and
-                  delays they would otherwise encounter in printing the cards.
+                  Results were taken at 3 separate stages of the revision
+                  process. An initial test was conducted to determine a base
+                  foundation of knowledge for each of the participants. At which
+                  point they were split into two working groups. Group A and
+                  Group B. One of the groups used the application to revise
+                  whilst the other group revised through the use of provided
+                  paper notes. At this point a further 2 tests were taken at a
+                  weekly interval.
                 </p>
                 <p className="main-text">
-                  Furthermore I designed and implemented a saving and loading
-                  system allowing the state of the board to be saved and
-                  continued on at a later date. This was one of the requirements
-                  set out by our project supervisor. To further enhance on the
-                  physical features I also implemented a system for allowing
-                  notes to be saved on cards or decks of cards.
+                  At the end of the revision process both groups results were
+                  compared to gain an understanding of the effect the
+                  application had on their retention.
                 </p>
                 <p>
                   <a
-                    href="https://github.com/zlatoto11/Ideation-Cards-Digital-Not-VR-"
+                    href="https://github.com/zlatoto11/Third-year-dissertation"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -101,7 +100,7 @@ export const IdeationCards = () => (
                 </p>
                 <p>
                   <a
-                    href={Dissertation}
+                    href={ThirdYearDissertation}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

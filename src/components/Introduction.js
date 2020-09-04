@@ -22,24 +22,16 @@ const Styles = styled.div`
     display: flex;
     margin: 0px;
     background-color: #222;
-    min-height: calc((var(--vh,1vh) * 100) - 80px);
+    min-height: calc((var(--vh,1vh) * 100) - 200px);
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
 }
   }
-.my-row {
-    ${"" /* border: 3px solid red; */}
-}
-.my-col{
-    ${"" /* border :3px dotted blue; */}
-}
 .leftside, .rightside{
     ${"" /* border: 3px dotted blue; */}
     height:50vh;
     width:100%;
-}
-
-.leftside{
 }
 .rounded-circle{
     max-width:100%;
@@ -97,11 +89,11 @@ p,h1,h2, small{
 export const Introduction = () => (
   <Styles>
     <Container className="my-container" fluid>
-      <Row className="my-row text-center">
-        <Col className="leftside">
+      <Row className="my-row">
+        <Col md="6" className="leftside">
           <div className="outer">
             <div className="inner">
-              <small>Hello! My name is</small>
+              <small> Hello! My name is</small>
               <h1 className="name-header">Zlatomir Kosev.</h1>
             </div>
             <div className="inner">
@@ -149,7 +141,10 @@ export const Introduction = () => (
             </ul>
           </div>
         </Col>
-        <Col className="rightside d-flex justify-content-center align-items-center">
+        <Col
+          md="6"
+          className="rightside d-flex justify-content-center align-items-center"
+        >
           <img
             className="rounded-circle z-depth-2"
             alt="me"
