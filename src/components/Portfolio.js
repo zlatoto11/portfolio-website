@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import IdeationCardsImage from "./IdeationCardsImage.png";
 import TowerDefenseImage from "./TowerDefenseImage.png";
-import ThirdYearDissertationImage from "./ThirdYearDissertationImage.jpg";
+import ThirdYearDissertationImage from "./ThirdYearDissertationImage.png";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
