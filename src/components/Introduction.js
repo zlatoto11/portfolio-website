@@ -196,11 +196,7 @@ export const Introduction = () => (
                 </a>
               </li>
               <li>
-                <a
-                  href="mailto:zlatomir_hk@hotmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={FinalResume} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={["fas", "id-card"]} size="3x" />
                 </a>
               </li>

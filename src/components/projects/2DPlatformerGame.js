@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import GamesReport from "../../assets/GamesReport.pdf";
 import SDLLogo from "../../assets/images/SDLLogo.png";
 import { NavigationBar } from "../NavigationBar";
 
