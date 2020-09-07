@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.5a60f519.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.61ea9139.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.61ea9139.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.c3aeb05f.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.c3aeb05f.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.c16362e1.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.c16362e1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.72bc10c5.chunk.js": "/portfolio-website/static/js/2.72bc10c5.chunk.js",
     "static/js/2.72bc10c5.chunk.js.map": "/portfolio-website/static/js/2.72bc10c5.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.fa2ec6a875d5814c2564e5db9bc8dbc5.js": "/portfolio-website/precache-manifest.fa2ec6a875d5814c2564e5db9bc8dbc5.js",
+    "precache-manifest.855c380eeda7d052129586276dad0577.js": "/portfolio-website/precache-manifest.855c380eeda7d052129586276dad0577.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.5a60f519.chunk.css.map": "/portfolio-website/static/css/main.5a60f519.chunk.css.map",
     "static/js/2.72bc10c5.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.72bc10c5.chunk.js.LICENSE.txt",
     "static/media/Dissertation.pdf": "/portfolio-website/static/media/Dissertation.f1e089ca.pdf",
-    "static/media/FinalResume.pdf": "/portfolio-website/static/media/FinalResume.7d521f06.pdf",
     "static/media/GamesReport.pdf": "/portfolio-website/static/media/GamesReport.22cbe9af.pdf",
     "static/media/IdeationCardsImage.png": "/portfolio-website/static/media/IdeationCardsImage.4fee49b1.png",
     "static/media/RunningApplication.pdf": "/portfolio-website/static/media/RunningApplication.378f2250.pdf",
@@ -24,13 +23,14 @@
     "static/media/ThirdYearDissertation.pdf": "/portfolio-website/static/media/ThirdYearDissertation.d8f2babb.pdf",
     "static/media/ThirdYearDissertationImage.png": "/portfolio-website/static/media/ThirdYearDissertationImage.d92ef907.png",
     "static/media/TowerDefenseImage.png": "/portfolio-website/static/media/TowerDefenseImage.9e12f1c8.png",
-    "static/media/ZlatImage.jpeg": "/portfolio-website/static/media/ZlatImage.7b326b44.jpeg"
+    "static/media/ZlatImage.jpeg": "/portfolio-website/static/media/ZlatImage.7b326b44.jpeg",
+    "static/media/ZlatomirKosev.pdf": "/portfolio-website/static/media/ZlatomirKosev.7d521f06.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.c16362e1.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.72bc10c5.chunk.js",
     "static/css/main.5a60f519.chunk.css",
-    "static/js/main.61ea9139.chunk.js"
+    "static/js/main.c3aeb05f.chunk.js"
   ]
 }
