@@ -3,28 +3,27 @@ import styled from "styled-components";
 import RunningApplication from "../../assets/RunningApplication.pdf";
 
 const Styles = styled.div`
-  .test {
-    background-color: white;
-  }
   .container-fluid {
     border: 3px solid red;
     padding: 0px;
   }
   .my-container {
     color: black;
-    background-color: white;
+    background-color: #181a25;
     width: 100%;
     height: 100%;
     border-radius: 1px;
-    box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.1);
   }
 
   .project-title {
+    color: #0b919d;
     text-align: center;
     margin: 0 5 5 5px;
     border-radius: 1px;
   }
   .main-text {
+    color: #bfbfbf;
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -35,7 +34,7 @@ const Styles = styled.div`
     box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.3);
   }
   section {
-    background-color: #1c1b1b;
+    background-color: #101119;
     padding-top: 5vh;
     padding-bottom: 5vh;
     min-height: 94vh;
@@ -43,6 +42,10 @@ const Styles = styled.div`
   a {
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  li {
+    color: #bfbfbf;
   }
 `;
 

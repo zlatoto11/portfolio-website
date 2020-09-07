@@ -26,21 +26,29 @@ const Styles = styled.div`
 
   .header-subheader {
     text-indent: 2.5%;
-    color: white;
+    color: #bfbfbf;
+    font-weight: 500;
   }
   .headerSection {
-    color: white;
+    color: #0b919d;
   }
   .card-body {
     background-color: #181a25;
   }
   .card-title,
   .card-text {
-    color: white;
+    color: #bfbfbf;
   }
 
   img {
     filter: brightness(80%);
+  }
+  .button-styling {
+    background-color: #0b919d;
+    border-color: #0b919d;
+  }
+  .button-styling:hover {
+    background-color: #225856;
   }
 `;
 
@@ -50,13 +58,13 @@ export const Portfolio = () => (
       <div className="projects-container">
         {/* Header */}
         <header className="project-header">
-          <h2 className="headerSection">Projects Section</h2>
+          <h1 className="headerSection">Projects Section</h1>
           <p className="header-subheader">
             &gt;&gt; What other projects do i have?
           </p>
         </header>
         {/* End of Header */}
-        <div className="row row-cols-1 row-cols-md-2">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div className="col mb-4">
             <div className="card">
               <img
@@ -74,7 +82,9 @@ export const Portfolio = () => (
                   medium.
                 </p>
                 <Link to={"/ideationcards"}>
-                  <Button>Check out this project.</Button>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -92,11 +102,13 @@ export const Portfolio = () => (
                   Android Studio IDE, Java
                 </h6>
                 <p className="card-text">
-                  A android application developed to help with my third year
+                  A Android application developed to help with my third year
                   dissertation.
                 </p>
                 <Link to={"/mobilelearningapplication"}>
-                  <Button>Check out this project.</Button>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -120,7 +132,9 @@ export const Portfolio = () => (
                   for the user.
                 </p>
                 <Link to={"/mobilerunningtrackerapplication"}>
-                  <Button>Check out this project.</Button>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -137,7 +151,9 @@ export const Portfolio = () => (
                   longer.
                 </p>
                 <Link to={"/mobilelearningapplication"}>
-                  <Button>Check out this project.</Button>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -159,7 +175,9 @@ export const Portfolio = () => (
                   defense game.
                 </p>
                 <Link to={"/towerdefense"}>
-                  <Button>Check out this project.</Button>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
                 </Link>
               </div>
             </div>

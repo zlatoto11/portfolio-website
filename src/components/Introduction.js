@@ -90,7 +90,7 @@ p,h1,h2, small{
 
 .red-text{
   display:inline;
-  color: #ad1f2b;
+  color: #ef233c;
 }
 
 .inner{
@@ -108,7 +108,7 @@ a{
   font-size:110%;
 }
 .linktoprojects{
-  color: #ad1f2b;
+  color: #ef233c;
 }
 .social-links{
 
@@ -124,7 +124,7 @@ export const Introduction = () => (
             <div className="inner-header">
               <small> Hello! My name is</small>
               <h1 className="name-header">
-                Zlatomir Kosev<p className="red-text">.</p>
+                Zlatomir Kosev<span className="red-text">.</span>
               </h1>
             </div>
             <div className="inner">
