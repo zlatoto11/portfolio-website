@@ -17,8 +17,7 @@ function App() {
     <React.Fragment>
       <Router>
         <Switch>
-          <Route exact path={"${process.env.PUBLIC_URL}/"} component={Home} />
-          <Route exact path={"/"} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
           <Route path="/cv" component={About} />
           <Route path="/contact" component={Contact} />
           <Route exact path="/ideationcards" component={IdeationCards} />

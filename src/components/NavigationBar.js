@@ -22,7 +22,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
         <FontAwesomeIcon icon={["fas", "arrow-circle-left"]} size="2x" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
