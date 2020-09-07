@@ -15,7 +15,7 @@ const Styles = styled.div`
 
   #footer {
     text-align: center;
-    background-color: #1c1b1b;
+    background-color: #101119;
     padding-top: 1em;
     padding-bottom: 1em;
   }

@@ -10,7 +10,11 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faEnvelope, faIdCard } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faIdCard,
+  faArrowCircleLeft,
+} from "@fortawesome/free-solid-svg-icons";
 
 library.add(
   faGithub,
@@ -19,5 +23,6 @@ library.add(
   faTwitter,
   faLinkedin,
   faEnvelope,
-  faIdCard
+  faIdCard,
+  faArrowCircleLeft
 );

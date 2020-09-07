@@ -1,10 +1,11 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    background-color: #181a25;
   }
 
   .navbar-brand,
@@ -21,28 +22,10 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">Zlatomir Kosev</Navbar.Brand>
+      <Navbar.Brand href="/">
+        <FontAwesomeIcon icon={["fas", "arrow-circle-left"]} size="2x" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Item>
-            <Nav.Link href="/">Home</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="/cv">CV</Nav.Link>
-          </Nav.Item>
-
-          <Nav.Item>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav.Item>
-
-          <Nav.Item>
-            <Nav.Link href="/mobilerunningtrackerapplication">
-              running tracker
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar.Collapse>
     </Navbar>
   </Styles>
 );

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import GamesReport from "../../assets/GamesReport.pdf";
 import SDLLogo from "../../assets/images/SDLLogo.png";
+import { NavigationBar } from "../NavigationBar";
 
 const Styles = styled.div`
   .container-fluid {
@@ -49,10 +50,11 @@ const Styles = styled.div`
 export const TwoDPlatformer = () => (
   <React.Fragment>
     <Styles>
+      <NavigationBar />
       <section>
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-5">
               <div className="project-picture">
                 <img src={SDLLogo} class="img-fluid" alt="Responsive"></img>
               </div>
@@ -79,20 +81,11 @@ export const TwoDPlatformer = () => (
                 </p>
                 <p>
                   <a
-                    href="https://github.com/zlatoto11/Tower-Defense-and-other-projects"
+                    href="https://github.com/zlatoto11/SDL-and-CPP-Game"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     The project's GitHub repository is available here
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href={GamesReport}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    The report showing how this application works is here.
                   </a>
                 </p>
               </div>

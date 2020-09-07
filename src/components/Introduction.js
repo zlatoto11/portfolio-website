@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import zlatImage from "../assets/images/zlat.png";
+import zlatImage from "../assets/images/ZlatImage.jpeg";
 import "./fontawesome";
 
 const Styles = styled.div`
@@ -32,10 +32,6 @@ const Styles = styled.div`
 .leftside, .rightside{
     height:50vh;
 }
-.rounded-circle{
-    max-width:90%;
-    max-height:90%;
-}
 .test{
     display: inline-block;
 }
@@ -48,13 +44,13 @@ const Styles = styled.div`
 }
 
 .styles-for-links{
-    display: inline;
+    display: flex;
     list-style-type: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start:0px;
+    justify-content: center;
+    align-items: center;
 }
 li{
     display: inline-block;
@@ -101,18 +97,29 @@ small{
   font-weight: 600;
 }
 
-a{
-}
-
 .leftside{
   font-size:110%;
 }
 .linktoprojects{
   color: #ef233c;
 }
-.social-links{
 
+.circular--portrait {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 50%;
 }
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.social-links{
+}
+
 `;
 
 export const Introduction = () => (
@@ -197,12 +204,14 @@ export const Introduction = () => (
           md="6"
           className="rightside d-flex justify-content-center align-items-center"
         >
-          <img
-            className="rounded-circle z-depth-2"
-            alt="me"
-            src={zlatImage}
-            data-holder-rendered="true"
-          ></img>
+          <div className="circular--portrait">
+            <img
+              src={zlatImage}
+              className="hi"
+              alt="me"
+              data-holder-rendered="true"
+            />
+          </div>
         </Col>
       </Row>
     </Container>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ThirdYearDissertation from "../../assets/ThirdYearDissertation.pdf";
+import { NavigationBar } from "../NavigationBar";
 
 const Styles = styled.div`
   .container-fluid {
@@ -48,10 +49,11 @@ const Styles = styled.div`
 export const MobileLearningApplication = () => (
   <React.Fragment>
     <Styles>
+      <NavigationBar />
       <section>
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-5">
               <div className="project-picture">
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
