@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import FinalResume from "../assets/FinalResume.pdf";
 const Styles = styled.div`
   .inlist {
     display: block;
@@ -26,7 +27,7 @@ export const Footer = () => (
       <div id="footer" className="col full">
         <ul className="inlist">
           <li>
-            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={FinalResume} target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>

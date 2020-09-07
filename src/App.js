@@ -15,12 +15,10 @@ import { TwoDPlatformer } from "./components/projects/2DPlatformerGame";
 function App() {
   return (
     <React.Fragment>
-      {/* Navigation */}
-      {/* Header  */}
-      {/* End of Navigation */}
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path={"${process.env.PUBLIC_URL}/"} component={Home} />
+          <Route exact path={"/"} component={Home} />
           <Route path="/cv" component={About} />
           <Route path="/contact" component={Contact} />
           <Route exact path="/ideationcards" component={IdeationCards} />

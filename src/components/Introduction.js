@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import zlatImage from "../assets/images/ZlatImage.jpeg";
+import FinalResume from "../assets/FinalResume.pdf";
 import "./fontawesome";
 
 const Styles = styled.div`
@@ -29,9 +30,7 @@ const Styles = styled.div`
     padding-bottom: 5%;
 }
   }
-.leftside, .rightside{
-    height:50vh;
-}
+
 .test{
     display: inline-block;
 }
@@ -105,9 +104,10 @@ small{
 }
 
 .circular--portrait {
-  position: relative;
-  width: 600px;
-  height: 600px;
+  position: flex;
+  width: auto;
+  height: auto;
+  max-height:600px;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -116,15 +116,11 @@ small{
   width: 100%;
   height: auto;
 }
-
-.social-links{
-}
-
 `;
 
 export const Introduction = () => (
   <Styles>
-    <Container className="my-container" fluid>
+    <Container fluid className="my-container">
       <Row className="my-row">
         <Col md="6" className="leftside">
           <div className="outer">
@@ -155,7 +151,18 @@ export const Introduction = () => (
                 I have undertaken both inside and outside of university.
               </p>
               <p>
-                You can find my <span className="red-text">CV</span> here.
+                You can find my{" "}
+                <span className="red-text">
+                  <a
+                    className="red-text"
+                    href={FinalResume}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    CV
+                  </a>
+                </span>{" "}
+                here.
               </p>
             </div>
           </div>
@@ -207,7 +214,7 @@ export const Introduction = () => (
           <div className="circular--portrait">
             <img
               src={zlatImage}
-              className="hi"
+              className="portrait-image"
               alt="me"
               data-holder-rendered="true"
             />

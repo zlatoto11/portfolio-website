@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zlatoto11.github.io/portfolio-website",
+  "homepage": "http://zlatoto11.github.io/portfolio-website/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
