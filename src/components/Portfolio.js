@@ -2,9 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import IdeationCardsImage from "./IdeationCardsImage.png";
-import TowerDefenseImage from "./TowerDefenseImage.png";
-import ThirdYearDissertationImage from "./ThirdYearDissertationImage.png";
+import IdeationCardsImage from "../assets/images/IdeationCardsImage.png";
+import TowerDefenseImage from "../assets/images/TowerDefenseImage.png";
+import ThirdYearDissertationImage from "../assets/images/ThirdYearDissertationImage.png";
+import RunningTrackerApplicationImage from "../assets/images/RunningTrackerApplicationImage.jpg";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -14,7 +15,7 @@ const Styles = styled.div`
     margin: 0px auto;
   }
   .portfolio-section {
-    background-color: #1c1b1b;
+    background-color: #101119;
   }
   p,
   h1,
@@ -29,6 +30,17 @@ const Styles = styled.div`
   }
   .headerSection {
     color: white;
+  }
+  .card-body {
+    background-color: #181a25;
+  }
+  .card-title,
+  .card-text {
+    color: white;
+  }
+
+  img {
+    filter: brightness(80%);
   }
 `;
 
@@ -57,7 +69,10 @@ export const Portfolio = () => (
                 <h6 className="card-subtitle mb-2 text-muted">
                   UnityEngine, C#, OculusRift
                 </h6>
-                <p className="card-text">Creating a digital version</p>
+                <p className="card-text">
+                  A Unity projecting transporting Ideation Cards into a digital
+                  medium.
+                </p>
                 <Link to={"/ideationcards"}>
                   <Button>Check out this project.</Button>
                 </Link>
@@ -77,9 +92,8 @@ export const Portfolio = () => (
                   Android Studio IDE, Java
                 </h6>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  A android application developed to help with my third year
+                  dissertation.
                 </p>
                 <Link to={"/mobilelearningapplication"}>
                   <Button>Check out this project.</Button>
@@ -89,7 +103,11 @@ export const Portfolio = () => (
           </div>
           <div className="col mb-4">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <img
+                src={RunningTrackerApplicationImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">
                   Android Running Tracker Application
@@ -98,9 +116,8 @@ export const Portfolio = () => (
                   Android Studio IDE, Java
                 </h6>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  A real-time running tracker application which logs activities
+                  for the user.
                 </p>
                 <Link to={"/mobilerunningtrackerapplication"}>
                   <Button>Check out this project.</Button>
@@ -138,9 +155,8 @@ export const Portfolio = () => (
                   UnityEngine, C#
                 </h6>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  A mixture of Unity game projects, leading up to a final tower
+                  defense game.
                 </p>
                 <Link to={"/towerdefense"}>
                   <Button>Check out this project.</Button>

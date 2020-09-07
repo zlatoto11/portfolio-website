@@ -5,17 +5,17 @@ import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { NoMatch } from "./components/NoMatch";
-import { NavigationBar } from "./components/NavigationBar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { IdeationCards } from "./components/IdeationCards";
-import { MobileLearningApplication } from "./components/MobileLearningApplication";
-import { MobileRunningTrackerApplication } from "./components/MobileRunningTrackerApplication";
-import { TowerDefense } from "./components/TowerDefense";
+import { IdeationCards } from "./components/projects/IdeationCards";
+import { MobileLearningApplication } from "./components/projects/MobileLearningApplication";
+import { MobileRunningTrackerApplication } from "./components/projects/MobileRunningTrackerApplication";
+import { TowerDefense } from "./components/projects/TowerDefense";
+import { Portfolio } from "./components/Portfolio";
 function App() {
   return (
     <React.Fragment>
       {/* Navigation */}
-      <NavigationBar />
+      {/* Header  */}
       {/* End of Navigation */}
       <Router>
         <Switch>
@@ -34,6 +34,7 @@ function App() {
             component={MobileRunningTrackerApplication}
           />
           <Route exact path="/towerdefense" component={TowerDefense} />
+          <Route path="/projects" component={Portfolio} />
           <Route component={NoMatch} />
         </Switch>
       </Router>

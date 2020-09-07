@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import RunningApplication from "./RunningApplication.pdf";
+import Dissertation from "../../assets/Dissertation.pdf";
 
 const Styles = styled.div`
   .test {
@@ -46,7 +46,7 @@ const Styles = styled.div`
   }
 `;
 
-export const MobileRunningTrackerApplication = () => (
+export const IdeationCards = () => (
   <React.Fragment>
     <Styles>
       <section>
@@ -57,7 +57,7 @@ export const MobileRunningTrackerApplication = () => (
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
                     className="img-fluid"
-                    src="https://www.youtube.com/embed/lp4yDZqYeak"
+                    src="https://www.youtube.com/embed/9aVxLPe2u5I"
                     allowFullScreen={true}
                   ></iframe>
                 </div>
@@ -65,38 +65,34 @@ export const MobileRunningTrackerApplication = () => (
             </div>
             <div className="col-7">
               <div className="my-container">
-                <h2 className="project-title">
-                  Mobile Running Tracker Application
-                </h2>
+                <h2 className="project-title">Ideation Cards Digisessions</h2>
                 <p className="main-text">
-                  For one of my third year modules I was tasked with creating a
-                  real-time activity tracking application utilising new Android
-                  OS features such as :
-                </p>
-                <ul>
-                  <li>Database content provider/contract</li>
-                  <li>Binders</li>
-                  <li>Broadcast receivers</li>
-                  <li>Listeners</li>
-                  <li>Notification manager</li>
-                  <li>Intents</li>
-                </ul>
-                <p className="main-text">
-                  The application continuously logs and stores the user's
-                  current location during their activity through the use of a
-                  SQLite database which allows the user to see a visual
-                  representation of their activity. To further improve this I
-                  created a saving system which allows the users to save their
-                  activities upon completion and then access them again at a
-                  later date.
+                  For my fourth year group dissertation, we were tasked with
+                  initialising the development of a digital ideation cards
+                  application. This was achieved through the use of Unity and it
+                  allows for ideation cards to be transferred to a digital
+                  medium whilst maintaining all the same functionality as they
+                  would with physical cards. This implementation also laid a
+                  base foundation for future expansion into virtual reality.
                 </p>
                 <p className="main-text">
-                  This project taught me alot about the Android OS feature set.
-                  The application was written in Java using the Android API.
+                  In order to achieve the above we initially developed a modular
+                  service which allows for any ideation card deck to be imported
+                  into the system through the use of a .csv file. This allows
+                  for easier testing of cards by creators by saving money and
+                  delays they would otherwise encounter in printing the cards.
+                </p>
+                <p className="main-text">
+                  Furthermore I designed and implemented a saving and loading
+                  system allowing the state of the board to be saved and
+                  continued on at a later date. This was one of the requirements
+                  set out by our project supervisor. To further enhance on the
+                  physical features I also implemented a system for allowing
+                  notes to be saved on cards or decks of cards.
                 </p>
                 <p>
                   <a
-                    href="https://github.com/zlatoto11/Mobile-running-tracker-application"
+                    href="https://github.com/zlatoto11/Ideation-Cards-Digital-Not-VR-"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -105,11 +101,11 @@ export const MobileRunningTrackerApplication = () => (
                 </p>
                 <p>
                   <a
-                    href={RunningApplication}
+                    href={Dissertation}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    The report showing how this application works is here.
+                    The accompanying paper is available to read in full here
                   </a>
                 </p>
               </div>

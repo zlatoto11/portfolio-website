@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ThirdYearDissertation from "./ThirdYearDissertation.pdf";
+import RunningApplication from "../../assets/RunningApplication.pdf";
 
 const Styles = styled.div`
   .test {
@@ -46,7 +46,7 @@ const Styles = styled.div`
   }
 `;
 
-export const MobileLearningApplication = () => (
+export const MobileRunningTrackerApplication = () => (
   <React.Fragment>
     <Styles>
       <section>
@@ -65,33 +65,38 @@ export const MobileLearningApplication = () => (
             </div>
             <div className="col-7">
               <div className="my-container">
-                <h2 className="project-title">Mobile Learning Application</h2>
+                <h2 className="project-title">
+                  Mobile Running Tracker Application
+                </h2>
                 <p className="main-text">
-                  For my third year dissertation I created and tested the
-                  effects of a multiple-choice mobile learning application on
-                  human memory retention. In order to do this I organised and
-                  lead a group of 12 individuals through a multiple week
-                  learning experience in which I gathered and analysed the
-                  results of the application.
+                  For one of my third year modules I was tasked with creating a
+                  real-time activity tracking application utilising new Android
+                  OS features such as :
+                </p>
+                <ul>
+                  <li>Database content provider/contract</li>
+                  <li>Binders</li>
+                  <li>Broadcast receivers</li>
+                  <li>Listeners</li>
+                  <li>Notification manager</li>
+                  <li>Intents</li>
+                </ul>
+                <p className="main-text">
+                  The application continuously logs and stores the user's
+                  current location during their activity through the use of a
+                  SQLite database which allows the user to see a visual
+                  representation of their activity. To further improve this I
+                  created a saving system which allows the users to save their
+                  activities upon completion and then access them again at a
+                  later date.
                 </p>
                 <p className="main-text">
-                  Results were taken at 3 separate stages of the revision
-                  process. An initial test was conducted to determine a base
-                  foundation of knowledge for each of the participants. At which
-                  point they were split into two working groups. Group A and
-                  Group B. One of the groups used the application to revise
-                  whilst the other group revised through the use of provided
-                  paper notes. At this point a further 2 tests were taken at a
-                  weekly interval.
-                </p>
-                <p className="main-text">
-                  At the end of the revision process both groups results were
-                  compared to gain an understanding of the effect the
-                  application had on their retention.
+                  This project taught me alot about the Android OS feature set.
+                  The application was written in Java using the Android API.
                 </p>
                 <p>
                   <a
-                    href="https://github.com/zlatoto11/Third-year-dissertation"
+                    href="https://github.com/zlatoto11/Mobile-running-tracker-application"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -100,11 +105,11 @@ export const MobileLearningApplication = () => (
                 </p>
                 <p>
                   <a
-                    href={ThirdYearDissertation}
+                    href={RunningApplication}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    The accompanying paper is available to read in full here
+                    The report showing how this application works is here.
                   </a>
                 </p>
               </div>
