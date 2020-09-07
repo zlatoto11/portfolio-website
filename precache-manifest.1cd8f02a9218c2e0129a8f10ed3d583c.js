@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "639e18c7855f0bf7b3cf1c6af09e44bf",
+    "revision": "13bceac4359fddcde050ba6fab92b6cd",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "f3bb94c33485609da575",
+    "revision": "942373390ab59a733e40",
     "url": "/portfolio-website/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "37b7ea9512a9dac402b7",
+    "revision": "99f2b248e45cd95a3c9c",
     "url": "/portfolio-website/static/css/main.6f2bed80.chunk.css"
   },
   {
-    "revision": "f3bb94c33485609da575",
-    "url": "/portfolio-website/static/js/2.9256bf7e.chunk.js"
+    "revision": "942373390ab59a733e40",
+    "url": "/portfolio-website/static/js/2.f9ae937b.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.9256bf7e.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.f9ae937b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37b7ea9512a9dac402b7",
-    "url": "/portfolio-website/static/js/main.eb9ccae7.chunk.js"
+    "revision": "99f2b248e45cd95a3c9c",
+    "url": "/portfolio-website/static/js/main.bc530d23.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f1e089ca063cb769e4746dc0f3531efe",
     "url": "/portfolio-website/static/media/Dissertation.f1e089ca.pdf"
+  },
+  {
+    "revision": "7d521f069b93646902a0987e9bd0f6f6",
+    "url": "/portfolio-website/static/media/FinalResume.7d521f06.pdf"
   },
   {
     "revision": "22cbe9af8b2b49a49291fcf967dbc27a",
