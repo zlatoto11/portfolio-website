@@ -37,11 +37,15 @@ const Styles = styled.div`
     background-color: #101119;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    min-height: 94vh;
+    height: 100vh;
   }
   a {
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  html {
+    height: 100%;
   }
 `;
 
@@ -55,7 +59,8 @@ export const IdeationCards = () => (
               <div className="project-picture">
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
-                    className="img-fluid"
+                    title="Ideation Card Video"
+                    className="ideation-video"
                     src="https://www.youtube.com/embed/9aVxLPe2u5I"
                     allowFullScreen={true}
                   ></iframe>

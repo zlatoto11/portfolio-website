@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import zlatImage from "../assets/images/zlat.png";
 import "./fontawesome";
@@ -129,8 +129,7 @@ export const Introduction = () => (
             </div>
             <div className="inner">
               <p>
-                I'm a programmer and computer scientist from{" "}
-                <span className="red-text">Bulgaria</span>, who is also a recent
+                I'm a programmer and computer scientist, who is a recent
                 graduate from the
                 <span className="red-text"> University of Nottingham</span>{" "}
                 where I achieved a{" "}

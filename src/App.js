@@ -11,6 +11,7 @@ import { MobileLearningApplication } from "./components/projects/MobileLearningA
 import { MobileRunningTrackerApplication } from "./components/projects/MobileRunningTrackerApplication";
 import { TowerDefense } from "./components/projects/TowerDefense";
 import { Portfolio } from "./components/Portfolio";
+import { TwoDPlatformer } from "./components/projects/2DPlatformerGame";
 function App() {
   return (
     <React.Fragment>
@@ -35,6 +36,7 @@ function App() {
           />
           <Route exact path="/towerdefense" component={TowerDefense} />
           <Route path="/projects" component={Portfolio} />
+          <Route exact path="/2dplatformergame" component={TwoDPlatformer} />
           <Route component={NoMatch} />
         </Switch>
       </Router>

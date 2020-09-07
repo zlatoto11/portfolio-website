@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import IdeationCardsImage from "../assets/images/IdeationCardsImage.png";
 import TowerDefenseImage from "../assets/images/TowerDefenseImage.png";
 import ThirdYearDissertationImage from "../assets/images/ThirdYearDissertationImage.png";
 import RunningTrackerApplicationImage from "../assets/images/RunningTrackerApplicationImage.jpg";
+import SDLLogo from "../assets/images/SDLLogo.png";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -94,7 +95,7 @@ export const Portfolio = () => (
               <img
                 src={ThirdYearDissertationImage}
                 className="card-img-top"
-                alt="..."
+                alt=" Third Year Dissertation"
               ></img>
               <div className="card-body">
                 <h5 className="card-title">Mobile Learning Application</h5>
@@ -141,16 +142,14 @@ export const Portfolio = () => (
           </div>
           <div className="col mb-4">
             <div className="card">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <img src={SDLLogo} className="card-img-top" alt="..."></img>
               <div className="card-body">
                 <h5 className="card-title">2D Platformer Game</h5>
                 <h6 className="card-subtitle mb-2 text-muted">C++, SDL</h6>
                 <p className="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  A 2D platformer game developed using the SDL library.
                 </p>
-                <Link to={"/mobilelearningapplication"}>
+                <Link to={"/2dplatformergame"}>
                   <Button className="button-styling">
                     Check out this project.
                   </Button>
@@ -163,7 +162,7 @@ export const Portfolio = () => (
               <img
                 src={TowerDefenseImage}
                 className="card-img-top"
-                alt="..."
+                alt="Tower Defense Game"
               ></img>
               <div className="card-body">
                 <h5 className="card-title">Variety of Unity projects</h5>

@@ -37,11 +37,15 @@ const Styles = styled.div`
     background-color: #101119;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    min-height: 94vh;
+    min-height: 100vh;
   }
   a {
     padding-left: 1em;
     padding-right: 1em;
+  }
+
+  li {
+    color: #bfbfbf;
   }
 `;
 
@@ -55,7 +59,8 @@ export const TowerDefense = () => (
               <div className="project-picture">
                 <div className="embed-responsive embed-responsive-16by9">
                   <iframe
-                    className="img-fluid"
+                    title="Tower Defense Video"
+                    className="video-frame"
                     src="https://www.youtube.com/embed/LsM_smIaURE"
                     allowFullScreen={true}
                   ></iframe>
