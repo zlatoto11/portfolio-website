@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import FinalResume from "../assets/FinalResume.pdf";
+import FinalResume from "../assets/ZlatomirKosev.pdf";
 const Styles = styled.div`
   .inlist {
     display: block;

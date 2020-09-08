@@ -44,10 +44,6 @@ const Styles = styled.div`
     padding-left: 1em;
     padding-right: 1em;
   }
-
-  html {
-    height: 100%;
-  }
 `;
 
 export const IdeationCards = () => (

@@ -6,6 +6,7 @@ import IdeationCardsImage from "../assets/images/IdeationCardsImage.png";
 import TowerDefenseImage from "../assets/images/TowerDefenseImage.png";
 import ThirdYearDissertationImage from "../assets/images/ThirdYearDissertationImage.png";
 import RunningTrackerApplicationImage from "../assets/images/RunningTrackerApplicationImage.jpg";
+import PersonalWebsite from "../assets/images/PersonalWebsite.jpg";
 import SDLLogo from "../assets/images/SDLLogo.png";
 const Styles = styled.div`
   .projects-container {
@@ -93,20 +94,19 @@ export const Portfolio = () => (
           <div className="col mb-4">
             <div className="card">
               <img
-                src={ThirdYearDissertationImage}
+                src={PersonalWebsite}
                 className="card-img-top"
-                alt=" Third Year Dissertation"
+                alt="Personal website"
               ></img>
               <div className="card-body">
-                <h5 className="card-title">Mobile Learning Application</h5>
+                <h5 className="card-title">Personal Website</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
-                  Android Studio IDE, Java
+                  React-Bootstrap, HTML, CSS, JavaScript
                 </h6>
                 <p className="card-text">
-                  A Android application developed to help with my third year
-                  dissertation.
+                  A personal website to display my projects and skills.
                 </p>
-                <Link to={"/mobilelearningapplication"}>
+                <Link to={"/personalwebsite"}>
                   <Button className="button-styling">
                     Check out this project.
                   </Button>
@@ -142,23 +142,6 @@ export const Portfolio = () => (
           </div>
           <div className="col mb-4">
             <div className="card">
-              <img src={SDLLogo} className="card-img-top" alt="..."></img>
-              <div className="card-body">
-                <h5 className="card-title">2D Platformer Game</h5>
-                <h6 className="card-subtitle mb-2 text-muted">C++, SDL</h6>
-                <p className="card-text">
-                  A 2D platformer game developed using the SDL library.
-                </p>
-                <Link to={"/2dplatformergame"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col mb-4">
-            <div className="card">
               <img
                 src={TowerDefenseImage}
                 className="card-img-top"
@@ -174,6 +157,48 @@ export const Portfolio = () => (
                   defense game.
                 </p>
                 <Link to={"/towerdefense"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={ThirdYearDissertationImage}
+                className="card-img-top"
+                alt=" Third Year Dissertation"
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">Mobile Learning Application</h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  Android Studio IDE, Java
+                </h6>
+                <p className="card-text">
+                  A Android application developed to help with my third year
+                  dissertation.
+                </p>
+                <Link to={"/mobilelearningapplication"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img src={SDLLogo} className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">2D Platformer Game</h5>
+                <h6 className="card-subtitle mb-2 text-muted">C++, SDL</h6>
+                <p className="card-text">
+                  A 2D platformer game developed using the SDL library.
+                </p>
+                <Link to={"/2dplatformergame"}>
                   <Button className="button-styling">
                     Check out this project.
                   </Button>

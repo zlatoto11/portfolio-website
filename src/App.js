@@ -1,6 +1,11 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Switch,
+  HashRouter,
+} from "react-router-dom";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
@@ -12,12 +17,13 @@ import { MobileRunningTrackerApplication } from "./components/projects/MobileRun
 import { TowerDefense } from "./components/projects/TowerDefense";
 import { Portfolio } from "./components/Portfolio";
 import { TwoDPlatformer } from "./components/projects/2DPlatformerGame";
+import { PersonalWebsite } from "./components/projects/PersonalWebsite";
 function App() {
   return (
     <React.Fragment>
-      <Router>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/cv" component={About} />
           <Route path="/contact" component={Contact} />
           <Route exact path="/ideationcards" component={IdeationCards} />
@@ -34,9 +40,10 @@ function App() {
           <Route exact path="/towerdefense" component={TowerDefense} />
           <Route path="/projects" component={Portfolio} />
           <Route exact path="/2dplatformergame" component={TwoDPlatformer} />
+          <Route exact path="/personalwebsite" component={PersonalWebsite} />
           <Route component={NoMatch} />
         </Switch>
-      </Router>
+      </HashRouter>
     </React.Fragment>
   );
 }

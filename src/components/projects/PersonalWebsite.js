@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SDLLogo from "../../assets/images/SDLLogo.png";
+import PersonalWebsiteImage from "../../assets/images/PersonalWebsite.jpg";
 import { NavigationBar } from "../NavigationBar";
 
 const Styles = styled.div`
@@ -44,9 +44,13 @@ const Styles = styled.div`
     padding-left: 1em;
     padding-right: 1em;
   }
+
+  li {
+    color: #bfbfbf;
+  }
 `;
 
-export const TwoDPlatformer = () => (
+export const PersonalWebsite = () => (
   <React.Fragment>
     <Styles>
       <NavigationBar />
@@ -55,32 +59,27 @@ export const TwoDPlatformer = () => (
           <div className="row">
             <div className="col-5">
               <div className="project-picture">
-                <img src={SDLLogo} className="img-fluid" alt="Responsive"></img>
+                <img
+                  src={PersonalWebsiteImage}
+                  className="img-fluid"
+                  alt="Responsive"
+                ></img>
               </div>
             </div>
             <div className="col-7">
               <div className="my-container">
-                <h2 className="project-title">2D Platformer Game</h2>
+                <h2 className="project-title">Personal Website</h2>
                 <p className="main-text">
-                  As part of another coursework during my second-year at
-                  university, we were provided with an SDL framework by one of
-                  our lecturers. We were also given a set of requirements and
-                  had to create a game based on these.
-                </p>
-                <p className="main-text">
-                  The game I decided to create was similar to "I Wanna Be The
-                  Boshy" where the user controls a character and has to progress
-                  to the end of the level whilst facing challenges and
-                  instant-death mechanics. Maps are loaded in through the use of
-                  a text file. The text file is then parsed by the tile manager
-                  which maps characters to their respective texture and renders
-                  it out on the screen. Further logic was employed for warping
-                  behaviour between levels. To better this, I also developed
-                  several automated moving objects and coded in collision logic.
+                  This website is another one of my personal projects, developed
+                  with the intent of learning React-Bootstrap and trying to
+                  catch myself up to date with front-end development. I also
+                  used this as a way to improve on my HTML, CSS and Javascript
+                  skills and it was made with the intent to be used in the
+                  future to display my projects.
                 </p>
                 <p>
                   <a
-                    href="https://github.com/zlatoto11/SDL-and-CPP-Game"
+                    href="https://github.com/zlatoto11/portfolio-website"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import zlatImage from "../assets/images/ZlatImage.jpeg";
-import FinalResume from "../assets/FinalResume.pdf";
+import FinalResume from "../assets/ZlatomirKosev.pdf";
 import "./fontawesome";
 
 const Styles = styled.div`
@@ -40,6 +40,8 @@ const Styles = styled.div`
 }
 .name-header{
     font-size: 45px;
+    font-weight: 800;
+    color:white;
 }
 
 .styles-for-links{
@@ -78,10 +80,6 @@ p,h1,h2, small{
   color:#bfbfbf;
 }
 
-.name-header{
-  font-weight: 800;
-  color:white;
-}
 
 .red-text{
   display:inline;
