@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd25e7270c8437865984d5b2d459e2b6",
+    "revision": "c4e1f31c73204133b8092213a41ba1c4",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "5ec93ae4bde0c71c5c99",
+    "revision": "e466a6bd286c12940b8a",
     "url": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "24fbc8d4ec3b92603d3e",
+    "revision": "b643d053db4ecfa84e9f",
     "url": "/portfolio-website/static/css/main.5a60f519.chunk.css"
   },
   {
-    "revision": "5ec93ae4bde0c71c5c99",
-    "url": "/portfolio-website/static/js/2.fd032857.chunk.js"
+    "revision": "e466a6bd286c12940b8a",
+    "url": "/portfolio-website/static/js/2.c33a95ff.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.fd032857.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.c33a95ff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24fbc8d4ec3b92603d3e",
-    "url": "/portfolio-website/static/js/main.3caaed9b.chunk.js"
+    "revision": "b643d053db4ecfa84e9f",
+    "url": "/portfolio-website/static/js/main.7b8c53d5.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f1e089ca063cb769e4746dc0f3531efe",
     "url": "/portfolio-website/static/media/Dissertation.f1e089ca.pdf"
+  },
+  {
+    "revision": "6e094761e518d7b8c87883837c03a8e4",
+    "url": "/portfolio-website/static/media/G53GRAImage.6e094761.jpg"
   },
   {
     "revision": "22cbe9af8b2b49a49291fcf967dbc27a",
@@ -72,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/ZlatImage.7b326b44.jpeg"
   },
   {
-    "revision": "7d521f069b93646902a0987e9bd0f6f6",
-    "url": "/portfolio-website/static/media/ZlatomirKosev.7d521f06.pdf"
+    "revision": "70f4d77751d7d93c4e26d8fef1dfe0d2",
+    "url": "/portfolio-website/static/media/ZlatomirKosev.70f4d777.pdf"
   }
 ]);
