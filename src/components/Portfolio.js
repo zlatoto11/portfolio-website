@@ -9,6 +9,7 @@ import RunningTrackerApplicationImage from "../assets/images/RunningTrackerAppli
 import PersonalWebsite from "../assets/images/PersonalWebsite.jpg";
 import SDLLogo from "../assets/images/SDLLogo.png";
 import G53GRAImage from "../assets/images/G53GRAImage.jpg";
+import MusicWebsite from "../assets/images/MusicWebsite.jpg";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -52,6 +53,8 @@ const Styles = styled.div`
   }
   .button-styling:hover {
     background-color: #225856;
+  }
+  .card {
   }
 `;
 
@@ -218,6 +221,26 @@ export const Portfolio = () => (
                   A castle built on a mountain using a C++ framework and OpenGL
                 </p>
                 <Link to={"/OpenGLGraphics"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img src={MusicWebsite} className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">Music Database Website</h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  HTML, CSS, PHP, MySQL
+                </h6>
+                <p className="card-text">
+                  A website built to display a music database.
+                </p>
+                <Link to={"/databaseWebsite"}>
                   <Button className="button-styling">
                     Check out this project.
                   </Button>

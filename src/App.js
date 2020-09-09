@@ -19,6 +19,7 @@ import { Portfolio } from "./components/Portfolio";
 import { TwoDPlatformer } from "./components/projects/2DPlatformerGame";
 import { PersonalWebsite } from "./components/projects/PersonalWebsite";
 import { G53Graphics } from "./components/projects/G53Graphics";
+import { DatabaseWebsite } from "./components/projects/DatabaseWebsite";
 function App() {
   return (
     <React.Fragment>
@@ -43,6 +44,7 @@ function App() {
           <Route exact path="/2dplatformergame" component={TwoDPlatformer} />
           <Route exact path="/personalwebsite" component={PersonalWebsite} />
           <Route exact path="/OpenGLGraphics" component={G53Graphics} />
+          <Route exact path="/databaseWebsite" component={DatabaseWebsite} />
           <Route component={NoMatch} />
         </Switch>
       </HashRouter>
