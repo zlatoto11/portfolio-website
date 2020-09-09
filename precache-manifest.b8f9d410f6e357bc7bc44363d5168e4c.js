@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4e1f31c73204133b8092213a41ba1c4",
+    "revision": "559d0353de204309e698a5ce230937e4",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "e466a6bd286c12940b8a",
+    "revision": "2fab948a6bc3ee932edd",
     "url": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "b643d053db4ecfa84e9f",
+    "revision": "4c31e4d2cc436cf77324",
     "url": "/portfolio-website/static/css/main.5a60f519.chunk.css"
   },
   {
-    "revision": "e466a6bd286c12940b8a",
-    "url": "/portfolio-website/static/js/2.c33a95ff.chunk.js"
+    "revision": "2fab948a6bc3ee932edd",
+    "url": "/portfolio-website/static/js/2.af618e8f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.c33a95ff.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.af618e8f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b643d053db4ecfa84e9f",
-    "url": "/portfolio-website/static/js/main.7b8c53d5.chunk.js"
+    "revision": "4c31e4d2cc436cf77324",
+    "url": "/portfolio-website/static/js/main.5b8ac793.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4fee49b1fad6abf0d1ef0439d93b67da",
     "url": "/portfolio-website/static/media/IdeationCardsImage.4fee49b1.png"
+  },
+  {
+    "revision": "288e40ba4ce44941655eae794d3e5f26",
+    "url": "/portfolio-website/static/media/MusicWebsite.288e40ba.jpg"
   },
   {
     "revision": "b769e269d53218fee91bc62aaf8c703b",
