@@ -8,6 +8,7 @@ import ThirdYearDissertationImage from "../assets/images/ThirdYearDissertationIm
 import RunningTrackerApplicationImage from "../assets/images/RunningTrackerApplicationImage.jpg";
 import PersonalWebsite from "../assets/images/PersonalWebsite.jpg";
 import SDLLogo from "../assets/images/SDLLogo.png";
+import G53GRAImage from "../assets/images/G53GRAImage.jpg";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -199,6 +200,24 @@ export const Portfolio = () => (
                   A 2D platformer game developed using the SDL library.
                 </p>
                 <Link to={"/2dplatformergame"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img src={G53GRAImage} className="card-img-top" alt="..."></img>
+              <div className="card-body">
+                <h5 className="card-title">OpenGL Graphics</h5>
+                <h6 className="card-subtitle mb-2 text-muted">C++, OpenGL</h6>
+                <p className="card-text">
+                  A castle built on a mountain using a C++ framework and OpenGL
+                </p>
+                <Link to={"/OpenGLGraphics"}>
                   <Button className="button-styling">
                     Check out this project.
                   </Button>
