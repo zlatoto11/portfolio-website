@@ -38,7 +38,7 @@ const Styles = styled.div`
     background-color: #101119;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    min-height: 100vh;
+    min-height: 93vh;
   }
   a {
     padding-left: 1em;

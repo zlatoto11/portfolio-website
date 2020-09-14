@@ -10,6 +10,7 @@ import PersonalWebsite from "../assets/images/PersonalWebsite.jpg";
 import SDLLogo from "../assets/images/SDLLogo.png";
 import G53GRAImage from "../assets/images/G53GRAImage.jpg";
 import MusicWebsite from "../assets/images/MusicWebsite.jpg";
+import AmazonCloneImage from "../assets/images/AmazonClone.jpg";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -88,6 +89,30 @@ export const Portfolio = () => (
                   medium.
                 </p>
                 <Link to={"/ideationcards"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={AmazonCloneImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">Amazon Clone</h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  HTML, CSS, JavaScript, React, Stripe, Amazon Firebase, Express
+                </h6>
+                <p className="card-text">
+                  A Unity projecting transporting Ideation Cards into a digital
+                  medium.
+                </p>
+                <Link to={"/amazon-clone"}>
                   <Button className="button-styling">
                     Check out this project.
                   </Button>

@@ -21,7 +21,7 @@ const Styles = styled.div`
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar expand="lg">
+    <Navbar sticky="top" expand="lg">
       <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
         <FontAwesomeIcon icon={["fas", "arrow-circle-left"]} size="2x" />
       </Navbar.Brand>

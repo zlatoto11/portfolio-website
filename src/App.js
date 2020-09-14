@@ -20,12 +20,13 @@ import { TwoDPlatformer } from "./components/projects/2DPlatformerGame";
 import { PersonalWebsite } from "./components/projects/PersonalWebsite";
 import { G53Graphics } from "./components/projects/G53Graphics";
 import { DatabaseWebsite } from "./components/projects/DatabaseWebsite";
+import { AmazonClone } from "./components/projects/AmazonClone";
 function App() {
   return (
     <React.Fragment>
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route path="/amazon-clone" component={AmazonClone} />
           <Route path="/cv" component={About} />
           <Route path="/contact" component={Contact} />
           <Route exact path="/ideationcards" component={IdeationCards} />
@@ -45,6 +46,7 @@ function App() {
           <Route exact path="/personalwebsite" component={PersonalWebsite} />
           <Route exact path="/OpenGLGraphics" component={G53Graphics} />
           <Route exact path="/databaseWebsite" component={DatabaseWebsite} />
+          <Route exact path="/" component={Home} />
           <Route component={NoMatch} />
         </Switch>
       </HashRouter>
