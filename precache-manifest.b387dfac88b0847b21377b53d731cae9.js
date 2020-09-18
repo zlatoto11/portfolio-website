@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feab0367a4323496ea79f3826ba65d19",
+    "revision": "75a8d556d3e7bbaf5fb6c70bfcc8dac3",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "24a95df15bbcd5034979",
+    "revision": "ab1fd150d7207ed6734f",
     "url": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "13cbafbc0736aa68aefa",
-    "url": "/portfolio-website/static/css/main.5a60f519.chunk.css"
+    "revision": "bc8c49d2eadedc6ca1f7",
+    "url": "/portfolio-website/static/css/main.ea2c2026.chunk.css"
   },
   {
-    "revision": "24a95df15bbcd5034979",
-    "url": "/portfolio-website/static/js/2.2743f27a.chunk.js"
+    "revision": "ab1fd150d7207ed6734f",
+    "url": "/portfolio-website/static/js/2.49ca0f2e.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.2743f27a.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.49ca0f2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13cbafbc0736aa68aefa",
-    "url": "/portfolio-website/static/js/main.19b07f75.chunk.js"
+    "revision": "bc8c49d2eadedc6ca1f7",
+    "url": "/portfolio-website/static/js/main.a9032126.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/PersonalWebsite.b769e269.jpg"
   },
   {
+    "revision": "d986317d486fc48ce24f5a154731d033",
+    "url": "/portfolio-website/static/media/PokeDexApplicationImage.d986317d.png"
+  },
+  {
     "revision": "378f22506c8d6958a287dcff15f2fcb1",
     "url": "/portfolio-website/static/media/RunningApplication.378f2250.pdf"
   },
@@ -78,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9e12f1c808aeb251366f6e37e3ab58fa",
     "url": "/portfolio-website/static/media/TowerDefenseImage.9e12f1c8.png"
+  },
+  {
+    "revision": "ab021a0c2814c9f33fd0278cfa518b7c",
+    "url": "/portfolio-website/static/media/WhatsAppClone.ab021a0c.png"
   },
   {
     "revision": "7b326b44b95e2c4c6449dac6430bdb41",
