@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.ea2c2026.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.a9032126.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.a9032126.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.2c076fe2.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.2c076fe2.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.c16362e1.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.c16362e1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.49ca0f2e.chunk.js": "/portfolio-website/static/js/2.49ca0f2e.chunk.js",
     "static/js/2.49ca0f2e.chunk.js.map": "/portfolio-website/static/js/2.49ca0f2e.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.b387dfac88b0847b21377b53d731cae9.js": "/portfolio-website/precache-manifest.b387dfac88b0847b21377b53d731cae9.js",
+    "precache-manifest.8386fa063331cf70697832115a6abf9e.js": "/portfolio-website/precache-manifest.8386fa063331cf70697832115a6abf9e.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.ea2c2026.chunk.css.map": "/portfolio-website/static/css/main.ea2c2026.chunk.css.map",
@@ -19,7 +19,6 @@
     "static/media/G53GRAImage.jpg": "/portfolio-website/static/media/G53GRAImage.6e094761.jpg",
     "static/media/GamesReport.pdf": "/portfolio-website/static/media/GamesReport.22cbe9af.pdf",
     "static/media/IdeationCardsImage.png": "/portfolio-website/static/media/IdeationCardsImage.4fee49b1.png",
-    "static/media/MusicWebsite.jpg": "/portfolio-website/static/media/MusicWebsite.288e40ba.jpg",
     "static/media/PersonalWebsite.jpg": "/portfolio-website/static/media/PersonalWebsite.b769e269.jpg",
     "static/media/PokeDexApplicationImage.png": "/portfolio-website/static/media/PokeDexApplicationImage.d986317d.png",
     "static/media/RunningApplication.pdf": "/portfolio-website/static/media/RunningApplication.378f2250.pdf",
@@ -37,6 +36,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.49ca0f2e.chunk.js",
     "static/css/main.ea2c2026.chunk.css",
-    "static/js/main.a9032126.chunk.js"
+    "static/js/main.2c076fe2.chunk.js"
   ]
 }
