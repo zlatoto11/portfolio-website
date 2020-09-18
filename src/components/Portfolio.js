@@ -49,15 +49,41 @@ const Styles = styled.div`
 
   img {
     filter: brightness(80%);
+    max-height: 270px;
+    object-fit: fill;
   }
   .button-styling {
     background-color: #0b919d;
     border-color: #0b919d;
+    margin-top: auto;
   }
   .button-styling:hover {
     background-color: #225856;
   }
+
+  .col {
+    display: flex;
+    align-items: stretch;
+  }
+
   .card {
+    width: 100%;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    color: white;
+    display: block;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  .differentScaling {
+    object-fit: contain;
   }
 `;
 
@@ -90,11 +116,9 @@ export const Portfolio = () => (
                   A Unity projecting transporting Ideation Cards into a digital
                   medium.
                 </p>
-                <Link to={"/ideationcards"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/ideationcards"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -115,11 +139,9 @@ export const Portfolio = () => (
                   A Amazon clone created by following the Clever Programmers 5
                   day coding challenge.
                 </p>
-                <Link to={"/amazon-clone"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/amazon-clone"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -142,11 +164,9 @@ export const Portfolio = () => (
                   A project creating a pokedex application using the Pokeapi.co
                   RESTful Pokémon API.
                 </p>
-                <Link to={"/pokedex"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/pokedex"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -169,11 +189,9 @@ export const Portfolio = () => (
                   in through their google account and create/post messages to
                   chats.
                 </p>
-                <Link to={"/whatsapp-clone"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/whatsapp-clone"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -194,11 +212,9 @@ export const Portfolio = () => (
                   A mixture of Unity game projects, leading up to a final tower
                   defense game.
                 </p>
-                <Link to={"/towerdefense"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/towerdefense"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -218,11 +234,9 @@ export const Portfolio = () => (
                 <p className="card-text">
                   A personal website to display my projects and skills.
                 </p>
-                <Link to={"/personalwebsite"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/personalwebsite"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -245,11 +259,11 @@ export const Portfolio = () => (
                   A real-time running tracker application which logs activities
                   for the user.
                 </p>
-                <Link to={"/mobilerunningtrackerapplication"}>
-                  <Button className="button-styling">
+                <Button className="button-styling ">
+                  <Link to={"/mobilerunningtrackerapplication"}>
                     Check out this project.
-                  </Button>
-                </Link>
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -270,11 +284,11 @@ export const Portfolio = () => (
                   A Android application developed to help with my third year
                   dissertation.
                 </p>
-                <Link to={"/mobilelearningapplication"}>
-                  <Button className="button-styling">
+                <Button className="button-styling ">
+                  <Link to={"/mobilelearningapplication"}>
                     Check out this project.
-                  </Button>
-                </Link>
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -288,11 +302,9 @@ export const Portfolio = () => (
                 <p className="card-text">
                   A 2D platformer game developed using the SDL library.
                 </p>
-                <Link to={"/2dplatformergame"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/2dplatformergame"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
@@ -306,18 +318,20 @@ export const Portfolio = () => (
                 <p className="card-text">
                   A castle built on a mountain using a C++ framework and OpenGL
                 </p>
-                <Link to={"/OpenGLGraphics"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/openGLgraphics"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
 
           <div className="col mb-4">
             <div className="card">
-              <img src={MusicWebsite} className="card-img-top" alt="..."></img>
+              <img
+                src={MusicWebsite}
+                className="differentScaling"
+                alt="..."
+              ></img>
               <div className="card-body">
                 <h5 className="card-title">Music Database Website</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
@@ -326,11 +340,9 @@ export const Portfolio = () => (
                 <p className="card-text">
                   A website built to display a music database.
                 </p>
-                <Link to={"/databaseWebsite"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
+                <Button className="button-styling ">
+                  <Link to={"/databasewebsite"}>Check out this project.</Link>
+                </Button>
               </div>
             </div>
           </div>
