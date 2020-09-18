@@ -11,6 +11,8 @@ import SDLLogo from "../assets/images/SDLLogo.png";
 import G53GRAImage from "../assets/images/G53GRAImage.jpg";
 import MusicWebsite from "../assets/images/MusicWebsite.jpg";
 import AmazonCloneImage from "../assets/images/AmazonClone.jpg";
+import WhatsAppCloneImage from "../assets/images/WhatsAppClone.png";
+import PokeDexApplicationImage from "../assets/images/PokeDexApplicationImage.png";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -96,6 +98,7 @@ export const Portfolio = () => (
               </div>
             </div>
           </div>
+
           <div className="col mb-4">
             <div className="card">
               <img
@@ -109,8 +112,8 @@ export const Portfolio = () => (
                   HTML, CSS, JavaScript, React, Stripe, Amazon Firebase, Express
                 </h6>
                 <p className="card-text">
-                  A Unity projecting transporting Ideation Cards into a digital
-                  medium.
+                  A Amazon clone created by following the Clever Programmers 5
+                  day coding challenge.
                 </p>
                 <Link to={"/amazon-clone"}>
                   <Button className="button-styling">
@@ -120,6 +123,86 @@ export const Portfolio = () => (
               </div>
             </div>
           </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={PokeDexApplicationImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">
+                  RESTful Pokédex Replica Application
+                </h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  HTML, CSS, JavaScript, React, Bootstrap, RESTful API
+                </h6>
+                <p className="card-text">
+                  A project creating a pokedex application using the Pokeapi.co
+                  RESTful Pokémon API.
+                </p>
+                <Link to={"/pokedex"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={WhatsAppCloneImage}
+                className="card-img-top"
+                alt="..."
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">WhatsApp Clone</h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  HTML, CSS, JavaScript, React, Amazon Firebase Database, React
+                  Context API, Google Authentication
+                </h6>
+                <p className="card-text">
+                  A basic version of a WhatsApp clone which allows users to log
+                  in through their google account and create/post messages to
+                  chats.
+                </p>
+                <Link to={"/whatsapp-clone"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={TowerDefenseImage}
+                className="card-img-top"
+                alt="Tower Defense Game"
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">Variety of Unity projects</h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  UnityEngine, C#
+                </h6>
+                <p className="card-text">
+                  A mixture of Unity game projects, leading up to a final tower
+                  defense game.
+                </p>
+                <Link to={"/towerdefense"}>
+                  <Button className="button-styling">
+                    Check out this project.
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <div className="col mb-4">
             <div className="card">
               <img
@@ -143,6 +226,7 @@ export const Portfolio = () => (
               </div>
             </div>
           </div>
+
           <div className="col mb-4">
             <div className="card">
               <img
@@ -169,30 +253,7 @@ export const Portfolio = () => (
               </div>
             </div>
           </div>
-          <div className="col mb-4">
-            <div className="card">
-              <img
-                src={TowerDefenseImage}
-                className="card-img-top"
-                alt="Tower Defense Game"
-              ></img>
-              <div className="card-body">
-                <h5 className="card-title">Variety of Unity projects</h5>
-                <h6 className="card-subtitle mb-2 text-muted">
-                  UnityEngine, C#
-                </h6>
-                <p className="card-text">
-                  A mixture of Unity game projects, leading up to a final tower
-                  defense game.
-                </p>
-                <Link to={"/towerdefense"}>
-                  <Button className="button-styling">
-                    Check out this project.
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
+
           <div className="col mb-4">
             <div className="card">
               <img

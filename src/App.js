@@ -21,6 +21,8 @@ import { PersonalWebsite } from "./components/projects/PersonalWebsite";
 import { G53Graphics } from "./components/projects/G53Graphics";
 import { DatabaseWebsite } from "./components/projects/DatabaseWebsite";
 import { AmazonClone } from "./components/projects/AmazonClone";
+import { PokeDexApplication } from "./components/projects/PokeDexApplication";
+import { WhatsAppClone } from "./components/projects/WhatsAppClone";
 function App() {
   return (
     <React.Fragment>
@@ -46,6 +48,8 @@ function App() {
           <Route exact path="/personalwebsite" component={PersonalWebsite} />
           <Route exact path="/OpenGLGraphics" component={G53Graphics} />
           <Route exact path="/databaseWebsite" component={DatabaseWebsite} />
+          <Route exact path="/pokedex" component={PokeDexApplication} />
+          <Route exact path="/whatsapp-clone" component={WhatsAppClone} />
           <Route exact path="/" component={Home} />
           <Route component={NoMatch} />
         </Switch>
