@@ -87,7 +87,7 @@ export const WhatsAppClone = () => (
                     <li>HTML, CSS</li>
                     <li>JavaScript</li>
                     <li>React</li>
-                    <li>Amazon Firebase Database</li>
+                    <li>Google Firebase Database</li>
                     <li>React Context API</li>
                     <li>Google Authentication</li>
                   </ul>

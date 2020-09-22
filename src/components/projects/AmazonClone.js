@@ -69,7 +69,7 @@ export const AmazonClone = () => (
                 <h2 className="project-title">Amazon Clone </h2>
                 <p className="main-text">
                   To further my knowledge on JavaScript, React as well as learn
-                  new technologies such as Express/Stripe and Amazon Firebase I
+                  new technologies such as Express/Stripe and Google Firebase I
                   decided to take part in the 5 day Clever Programmers
                   programming challenge. Each day you would code along with them
                   and at the end of each day homework would be set for the next

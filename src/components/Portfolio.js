@@ -133,7 +133,8 @@ export const Portfolio = () => (
               <div className="card-body">
                 <h5 className="card-title">Amazon Clone</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
-                  HTML, CSS, JavaScript, React, Stripe, Amazon Firebase, Express
+                  HTML, CSS, JavaScript, React, Stripe, Google Firebase
+                  Database, Express
                 </h6>
                 <p className="card-text">
                   A Amazon clone created by following the Clever Programmers 5
@@ -181,7 +182,7 @@ export const Portfolio = () => (
               <div className="card-body">
                 <h5 className="card-title">WhatsApp Clone</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
-                  HTML, CSS, JavaScript, React, Amazon Firebase Database, React
+                  HTML, CSS, JavaScript, React, Google Firebase Database, React
                   Context API, Google Authentication
                 </h6>
                 <p className="card-text">
