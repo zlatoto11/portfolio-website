@@ -7,11 +7,10 @@ import {
   HashRouter,
 } from "react-router-dom";
 import { Home } from "./components/Home";
-import { About } from "./components/About";
-import { Contact } from "./components/Contact";
 import { NoMatch } from "./components/NoMatch";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { IdeationCards } from "./components/projects/IdeationCards";
+import { NetCoreProject } from "./components/projects/NetCoreProject";
 import { MobileLearningApplication } from "./components/projects/MobileLearningApplication";
 import { MobileRunningTrackerApplication } from "./components/projects/MobileRunningTrackerApplication";
 import { TowerDefense } from "./components/projects/TowerDefense";
@@ -23,14 +22,13 @@ import { DatabaseWebsite } from "./components/projects/DatabaseWebsite";
 import { AmazonClone } from "./components/projects/AmazonClone";
 import { PokeDexApplication } from "./components/projects/PokeDexApplication";
 import { WhatsAppClone } from "./components/projects/WhatsAppClone";
+
 function App() {
   return (
     <React.Fragment>
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/amazon-clone" component={AmazonClone} />
-          <Route path="/cv" component={About} />
-          <Route path="/contact" component={Contact} />
           <Route exact path="/ideationcards" component={IdeationCards} />
           <Route
             exact
@@ -50,6 +48,7 @@ function App() {
           <Route exact path="/databaseWebsite" component={DatabaseWebsite} />
           <Route exact path="/pokedex" component={PokeDexApplication} />
           <Route exact path="/whatsapp-clone" component={WhatsAppClone} />
+          <Route exact path="/BookDatabaseNetCore" component={NetCoreProject} />
           <Route exact path="/" component={Home} />
           <Route component={NoMatch} />
         </Switch>

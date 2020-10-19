@@ -13,6 +13,7 @@ import MusicWebsite from "../assets/images/MusicWebsite.jpg";
 import AmazonCloneImage from "../assets/images/AmazonClone.jpg";
 import WhatsAppCloneImage from "../assets/images/WhatsAppClone.png";
 import PokeDexApplicationImage from "../assets/images/PokeDexApplicationImage.png";
+import BookListImage from "../assets/images/BookListImage.png";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -215,6 +216,34 @@ export const Portfolio = () => (
                 </p>
                 <Button className="button-styling ">
                   <Link to={"/towerdefense"}>Check out this project.</Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={BookListImage}
+                className="card-img-top"
+                alt="Tower Defense Game"
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">
+                  Learning ASP.NET Core 3.1 Tutorial
+                </h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  C#, JavaScript, HTML, CSS, ASP.NET
+                </h6>
+                <p className="card-text">
+                  Following alongside the freeCodeCamp tutorial on ASP.NET Core
+                  3.1. To gain a basic understanding of functionality and
+                  concepts.
+                </p>
+                <Button className="button-styling ">
+                  <Link to={"/BookDatabaseNetCore"}>
+                    Check out this project.
+                  </Link>
                 </Button>
               </div>
             </div>
