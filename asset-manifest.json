@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.ea2c2026.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.86190a1c.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.86190a1c.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.ef238f6a.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.ef238f6a.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.c16362e1.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.c16362e1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.49ca0f2e.chunk.js": "/portfolio-website/static/js/2.49ca0f2e.chunk.js",
-    "static/js/2.49ca0f2e.chunk.js.map": "/portfolio-website/static/js/2.49ca0f2e.chunk.js.map",
+    "static/js/2.d769e89a.chunk.js": "/portfolio-website/static/js/2.d769e89a.chunk.js",
+    "static/js/2.d769e89a.chunk.js.map": "/portfolio-website/static/js/2.d769e89a.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.b24aa6c8c67d086f9fd764a0d4a908e1.js": "/portfolio-website/precache-manifest.b24aa6c8c67d086f9fd764a0d4a908e1.js",
+    "precache-manifest.d7856a919e152887f0093af9136dc3ff.js": "/portfolio-website/precache-manifest.d7856a919e152887f0093af9136dc3ff.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.ea2c2026.chunk.css.map": "/portfolio-website/static/css/main.ea2c2026.chunk.css.map",
-    "static/js/2.49ca0f2e.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.49ca0f2e.chunk.js.LICENSE.txt",
+    "static/js/2.d769e89a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.d769e89a.chunk.js.LICENSE.txt",
     "static/media/AmazonClone.jpg": "/portfolio-website/static/media/AmazonClone.e18180a6.jpg",
+    "static/media/BookListImage.png": "/portfolio-website/static/media/BookListImage.f7f37f25.png",
     "static/media/Dissertation.pdf": "/portfolio-website/static/media/Dissertation.f1e089ca.pdf",
     "static/media/G53GRAImage.jpg": "/portfolio-website/static/media/G53GRAImage.6e094761.jpg",
     "static/media/GamesReport.pdf": "/portfolio-website/static/media/GamesReport.22cbe9af.pdf",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.c16362e1.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.49ca0f2e.chunk.js",
+    "static/js/2.d769e89a.chunk.js",
     "static/css/main.ea2c2026.chunk.css",
-    "static/js/main.86190a1c.chunk.js"
+    "static/js/main.ef238f6a.chunk.js"
   ]
 }

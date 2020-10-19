@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a9a668f0b1c0e3408cdd188075930eb5",
+    "revision": "c96e2af73d42addd61bba934d405c703",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "ab1fd150d7207ed6734f",
+    "revision": "dbe941c7021f27c0a59c",
     "url": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "42bc422b12d587943139",
+    "revision": "da4017c934177124fdc5",
     "url": "/portfolio-website/static/css/main.ea2c2026.chunk.css"
   },
   {
-    "revision": "ab1fd150d7207ed6734f",
-    "url": "/portfolio-website/static/js/2.49ca0f2e.chunk.js"
+    "revision": "dbe941c7021f27c0a59c",
+    "url": "/portfolio-website/static/js/2.d769e89a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.49ca0f2e.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.d769e89a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42bc422b12d587943139",
-    "url": "/portfolio-website/static/js/main.86190a1c.chunk.js"
+    "revision": "da4017c934177124fdc5",
+    "url": "/portfolio-website/static/js/main.ef238f6a.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e18180a69b1077724edc8cf3fe7dec9a",
     "url": "/portfolio-website/static/media/AmazonClone.e18180a6.jpg"
+  },
+  {
+    "revision": "f7f37f25dc49519de723a55b05192123",
+    "url": "/portfolio-website/static/media/BookListImage.f7f37f25.png"
   },
   {
     "revision": "f1e089ca063cb769e4746dc0f3531efe",
