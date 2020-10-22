@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.ea2c2026.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.63938a42.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.63938a42.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.757610e2.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.757610e2.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.c16362e1.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.c16362e1.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d769e89a.chunk.js": "/portfolio-website/static/js/2.d769e89a.chunk.js",
-    "static/js/2.d769e89a.chunk.js.map": "/portfolio-website/static/js/2.d769e89a.chunk.js.map",
+    "static/js/2.60cd8e57.chunk.js": "/portfolio-website/static/js/2.60cd8e57.chunk.js",
+    "static/js/2.60cd8e57.chunk.js.map": "/portfolio-website/static/js/2.60cd8e57.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.5487beeb58ea91c13ce4d6a4309d1882.js": "/portfolio-website/precache-manifest.5487beeb58ea91c13ce4d6a4309d1882.js",
+    "precache-manifest.afef9ea7a2d868101e84d438d5e06d2d.js": "/portfolio-website/precache-manifest.afef9ea7a2d868101e84d438d5e06d2d.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.ea2c2026.chunk.css.map": "/portfolio-website/static/css/main.ea2c2026.chunk.css.map",
-    "static/js/2.d769e89a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.d769e89a.chunk.js.LICENSE.txt",
+    "static/js/2.60cd8e57.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.60cd8e57.chunk.js.LICENSE.txt",
     "static/media/AmazonClone.jpg": "/portfolio-website/static/media/AmazonClone.e18180a6.jpg",
     "static/media/BookListImage.png": "/portfolio-website/static/media/BookListImage.f7f37f25.png",
     "static/media/Dissertation.pdf": "/portfolio-website/static/media/Dissertation.f1e089ca.pdf",
     "static/media/G53GRAImage.jpg": "/portfolio-website/static/media/G53GRAImage.6e094761.jpg",
     "static/media/GamesReport.pdf": "/portfolio-website/static/media/GamesReport.22cbe9af.pdf",
+    "static/media/GraphQLandApolloClientImage.png": "/portfolio-website/static/media/GraphQLandApolloClientImage.c9c8c6f5.png",
     "static/media/IdeationCardsImage.png": "/portfolio-website/static/media/IdeationCardsImage.4fee49b1.png",
     "static/media/PersonalWebsite.jpg": "/portfolio-website/static/media/PersonalWebsite.b769e269.jpg",
     "static/media/PokeDexApplicationImage.png": "/portfolio-website/static/media/PokeDexApplicationImage.d986317d.png",
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.c16362e1.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.d769e89a.chunk.js",
+    "static/js/2.60cd8e57.chunk.js",
     "static/css/main.ea2c2026.chunk.css",
-    "static/js/main.63938a42.chunk.js"
+    "static/js/main.757610e2.chunk.js"
   ]
 }

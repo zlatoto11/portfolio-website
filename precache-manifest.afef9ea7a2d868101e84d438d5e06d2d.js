@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86bc04e6440b23c92f5518bece0f2f6a",
+    "revision": "d59c4e15d33e211713fd99667439e727",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "dbe941c7021f27c0a59c",
+    "revision": "a0485702d9936c66437e",
     "url": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "8fce0baa8dae3a7662f8",
+    "revision": "a6be9ce054c6fafc1844",
     "url": "/portfolio-website/static/css/main.ea2c2026.chunk.css"
   },
   {
-    "revision": "dbe941c7021f27c0a59c",
-    "url": "/portfolio-website/static/js/2.d769e89a.chunk.js"
+    "revision": "a0485702d9936c66437e",
+    "url": "/portfolio-website/static/js/2.60cd8e57.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.d769e89a.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.60cd8e57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fce0baa8dae3a7662f8",
-    "url": "/portfolio-website/static/js/main.63938a42.chunk.js"
+    "revision": "a6be9ce054c6fafc1844",
+    "url": "/portfolio-website/static/js/main.757610e2.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22cbe9af8b2b49a49291fcf967dbc27a",
     "url": "/portfolio-website/static/media/GamesReport.22cbe9af.pdf"
+  },
+  {
+    "revision": "c9c8c6f574f75323c30f755168021a1d",
+    "url": "/portfolio-website/static/media/GraphQLandApolloClientImage.c9c8c6f5.png"
   },
   {
     "revision": "4fee49b1fad6abf0d1ef0439d93b67da",
