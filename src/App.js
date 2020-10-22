@@ -22,6 +22,7 @@ import { DatabaseWebsite } from "./components/projects/DatabaseWebsite";
 import { AmazonClone } from "./components/projects/AmazonClone";
 import { PokeDexApplication } from "./components/projects/PokeDexApplication";
 import { WhatsAppClone } from "./components/projects/WhatsAppClone";
+import { GraphQLAppoloProject } from "./components/projects/GraphQLAppoloProject";
 
 function App() {
   return (
@@ -49,6 +50,11 @@ function App() {
           <Route exact path="/pokedex" component={PokeDexApplication} />
           <Route exact path="/whatsapp-clone" component={WhatsAppClone} />
           <Route exact path="/BookDatabaseNetCore" component={NetCoreProject} />
+          <Route
+            exact
+            path="/GraphQLandApollo"
+            component={GraphQLAppoloProject}
+          />
           <Route exact path="/" component={Home} />
           <Route component={NoMatch} />
         </Switch>

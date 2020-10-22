@@ -14,6 +14,7 @@ import AmazonCloneImage from "../assets/images/AmazonClone.jpg";
 import WhatsAppCloneImage from "../assets/images/WhatsAppClone.png";
 import PokeDexApplicationImage from "../assets/images/PokeDexApplicationImage.png";
 import BookListImage from "../assets/images/BookListImage.png";
+import GraphQLandApolloClientImage from "../assets/images/GraphQLandApolloClientImage.png";
 const Styles = styled.div`
   .projects-container {
     width: 100%;
@@ -244,6 +245,32 @@ export const Portfolio = () => (
                   <Link to={"/BookDatabaseNetCore"}>
                     Check out this project.
                   </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          <div className="col mb-4">
+            <div className="card">
+              <img
+                src={GraphQLandApolloClientImage}
+                className="card-img-top"
+                alt="Tower Defense Game"
+              ></img>
+              <div className="card-body">
+                <h5 className="card-title">
+                  GraphQL and Apollo Client User Management
+                </h5>
+                <h6 className="card-subtitle mb-2 text-muted">
+                  HTML, CSS, JavaScript, React, GraphQL, Apollo Client
+                </h6>
+                <p className="card-text">
+                  Created a local user database which I then used GraphQL and
+                  Apollo Client to query from and display information. Used as
+                  practice to get a better understanding of GraphQL.
+                </p>
+                <Button className="button-styling ">
+                  <Link to={"/GraphQLandApollo"}>Check out this project.</Link>
                 </Button>
               </div>
             </div>
