@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d59c4e15d33e211713fd99667439e727",
+    "revision": "cdc12ee67b327e4d2437ec1890f8a3d7",
     "url": "/portfolio-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "a6be9ce054c6fafc1844",
+    "revision": "5b83157febd6956a1848",
     "url": "/portfolio-website/static/css/main.ea2c2026.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/js/2.60cd8e57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6be9ce054c6fafc1844",
-    "url": "/portfolio-website/static/js/main.757610e2.chunk.js"
+    "revision": "5b83157febd6956a1848",
+    "url": "/portfolio-website/static/js/main.39de9ebe.chunk.js"
   },
   {
     "revision": "99cb685b86efd0f580da",
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/ZlatImage.7b326b44.jpeg"
   },
   {
-    "revision": "b0367a334a08061edfbfa2c4bb0ae847",
-    "url": "/portfolio-website/static/media/ZlatomirKosev.b0367a33.pdf"
+    "revision": "364eeb5e37ecea6af306670079e22016",
+    "url": "/portfolio-website/static/media/ZlatomirKosev.364eeb5e.pdf"
   }
 ]);
