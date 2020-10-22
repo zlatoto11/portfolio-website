@@ -301,7 +301,7 @@ export const Portfolio = () => (
           <div className="col mb-4">
             <div className="card">
               <img
-                src={RunningTrackerApplicationImage}
+                src="https://techcrunch.com/wp-content/uploads/2017/02/android-studio-logo.png?w=1390&crop=1"
                 className="card-img-top"
                 alt="..."
               ></img>
@@ -328,7 +328,7 @@ export const Portfolio = () => (
           <div className="col mb-4">
             <div className="card">
               <img
-                src={ThirdYearDissertationImage}
+                src="https://techcrunch.com/wp-content/uploads/2017/02/android-studio-logo.png?w=1390&crop=1"
                 className="card-img-top"
                 alt=" Third Year Dissertation"
               ></img>

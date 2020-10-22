@@ -59,14 +59,11 @@ export const MobileRunningTrackerApplication = () => (
           <div className="row">
             <div className="col-5">
               <div className="project-picture">
-                <div className="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    title="Mobile Running Tracker Video"
-                    className="video-frame"
-                    src="https://www.youtube.com/embed/lp4yDZqYeak"
-                    allowFullScreen={true}
-                  ></iframe>
-                </div>
+                <img
+                  src="https://techcrunch.com/wp-content/uploads/2017/02/android-studio-logo.png?w=1390&crop=1"
+                  className="img-fluid"
+                  alt="Responsive"
+                ></img>
               </div>
             </div>
             <div className="col-7">
